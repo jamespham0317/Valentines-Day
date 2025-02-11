@@ -71,8 +71,8 @@ const MessageBox = ({ message, score, onButton, moveButton }) => {
       <div className='message-box'>
         <p> Will you be my Valentine? </p>
           <div style={{marginTop: '70px'}} className='button-container'>
-            <button id='yesButton' onClick={onButton}>Yes</button>
-            <button id='noButton' onMouseOver={moveButton}>No</button>
+            <button className='yesButton' onClick={onButton}>Yes</button>
+            <button className='noButton' onMouseOver={moveButton}>No</button>
           </div>
       </div>
     );

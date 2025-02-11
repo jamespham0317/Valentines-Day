@@ -35,12 +35,12 @@ button {
     gap: 20px;
 }
 
-#yesButton {
+.yesButton {
     position: relative; 
     margin-right: 100px;
 }
 
-#noButton {
+.noButton {
     position: absolute;
     margin-left: 100px;
 }

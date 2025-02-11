@@ -48,9 +48,9 @@ class App extends Component {
   }
 
   moveButton = () => {
-    let noButton = document.getElementById("noButton");
-    let maxX = window.innerWidth - noButton.clientWidth - 1000; 
-    let maxY = window.innerHeight - noButton.clientHeight - 400;
+    let noButton = document.getElementsByClassName("noButton")[0];
+    let maxX = window.innerWidth - noButton.clientWidth - 20; 
+    let maxY = window.innerHeight - noButton.clientHeight - 20;
             
     let newX = Math.random() * maxX;
     let newY = Math.random() * maxY;

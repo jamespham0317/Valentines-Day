@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/your-repository-name/static/css/main.77844074.css",
+    "main.js": "/your-repository-name/static/js/main.9b401b0c.js",
+    "static/media/turtle.gif": "/your-repository-name/static/media/turtle.c60edcd6e564c714ee5d.gif",
+    "static/media/celebrating.gif": "/your-repository-name/static/media/celebrating.53a77ea53265224ced25.gif",
+    "index.html": "/your-repository-name/index.html",
+    "main.77844074.css.map": "/your-repository-name/static/css/main.77844074.css.map",
+    "main.9b401b0c.js.map": "/your-repository-name/static/js/main.9b401b0c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.77844074.css",
+    "static/js/main.9b401b0c.js"
+  ]
+}

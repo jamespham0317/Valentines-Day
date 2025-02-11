@@ -1,7 +1,7 @@
 {
   "name": "valentines-day",
   "version": "0.1.0",
-  "homepage": "https://jamespham0317.github.io/Valentines-Day/",
+  "homepage": "https://jamespham0317.github.io/Valentines-Day",
   "private": true,
   "dependencies": {
     "cra-template": "1.2.0",

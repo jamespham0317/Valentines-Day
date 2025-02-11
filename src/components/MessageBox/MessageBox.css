@@ -1,0 +1,46 @@
+.message-box {
+	position: absolute;
+    top: 45%;
+    left: 55%;
+/*    transform: translate(-50%, -50%);*/
+    transform: translate(0, -50%);
+    width: 400px;
+    height: 300px;
+    background-color: white;
+    border: 2px solid palevioletred;
+    border-radius: 10px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+	font-size: 20px;
+    color: white;
+    cursor: pointer;
+    background-color: palevioletred;
+    padding: 10px 20px;
+    border-radius: 40px;
+    margin: 10px;
+    border: none;
+}
+
+.button-container {
+    position: relative; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+#yesButton {
+    position: relative; 
+    margin-right: 100px;
+}
+
+#noButton {
+    position: absolute;
+    margin-left: 100px;
+}
